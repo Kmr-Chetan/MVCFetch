@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const uri =
   "mongodb+srv://id:pass@cluster0.vmdmj5v.mongodb.net/exData?retryWrites=true&w=majority";
 
-//   id will note work  set id and pass
+//   id will not work  plz set id and pass
  function DB() {
   mongoose
     .connect(uri, {
